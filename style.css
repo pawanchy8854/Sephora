@@ -1,0 +1,680 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    cursor: context-menu;
+}
+
+body {
+    background-image: url('img/logo11.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+
+
+/*--Navbar--*/
+
+.navbar {
+    padding: none;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.navbar-toggler {
+    background-color: #00a966;
+}
+
+.navbar ul li a:hover {
+    background-color: #00a966;
+    color: #ffffff!important;
+}
+
+.navbar ul li a {
+    color: #00a966!important;
+    border-radius: 8px;
+}
+
+.form-control {
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #00a966;
+}
+
+.fa-search {
+    height: 30px;
+    width: auto;
+    border: none;
+    background-color: #00a966;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+    margin: -7px;
+}
+
+.fa-search:hover {
+    background-color: #1d803b;
+    border-radius: 8px;
+    border: none;
+}
+
+
+/*--Slider--*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding: 1rem;
+}
+
+.btn-primary {
+    background-color: #00a966;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s;
+    color: white;
+    margin: 5px;
+    padding-bottom: auto;
+    text-align: center;
+}
+
+.btn-primary span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-primary span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: #1d803b;
+}
+
+.btn-primary:hover span {
+    padding-right: 25px;
+}
+
+.btn-primary:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*--Jumbotorn--*/
+
+.jumbotron {
+    padding: 1rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+
+/*--Welcome--*/
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #00a966;
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+
+/*Gallery--*/
+
+#text_image {
+    width: 275px;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #00a966;
+}
+
+.lil {
+    margin-top: 10px;
+}
+
+
+/*Status--*/
+
+.timer {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-bottom: 80px;
+    color: #00a966;
+}
+
+
+/*--Relax*/
+
+.fun {
+    background-color: #00a966;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s;
+    color: white;
+    padding-bottom: auto;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.fun span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.fun span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.fun:hover {
+    background-color: #1d803b;
+    border: 1px solid #1d803b;
+}
+
+.fun:hover span {
+    padding-right: 25px;
+}
+
+.fun:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.gif {
+    max-width: 100%;
+}
+
+
+/*--Services--*/
+
+.card {
+    border: 1px solid #00a966;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+.card-title,
+.card-text {
+    text-align: center;
+}
+
+.btn-outline-secondary {
+    background-color: #00a966;
+    border: none;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-outline-secondary span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-outline-secondary span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #1d803b;
+}
+
+.btn-outline-secondary:hover span {
+    padding-right: 25px;
+}
+
+.btn-outline-secondary:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*--Benifits--*/
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    box-shadow: 5px 5px 10px #00a966;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+.display-6 {
+    text-align: center;
+    border-bottom: 2px solid #00a966;
+}
+
+
+/*--Philosophy--*/
+
+.btn-primary1 {
+    background-color: #00a966;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s;
+    color: white;
+    margin: 5px;
+    padding-bottom: auto;
+    text-align: center;
+    float: right;
+}
+
+#clear {
+    clear: both;
+}
+
+.btn-primary1 span {
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-primary1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-primary1:hover {
+    background-color: #1d803b;
+}
+
+.btn-primary1:hover span {
+    padding-right: 25px;
+}
+
+.btn-primary1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+.click {
+    background-color: #00a966;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding-bottom: auto;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 5px;
+    text-align: center;
+}
+
+.click:hover {
+    background-color: #1d803b;
+    border: none;
+}
+
+.click span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.click span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.click:hover span {
+    padding-right: 25px;
+}
+
+.click:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*--Connect--*/
+
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-envelope {
+    color: #ea4335;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-viber {
+    color: #59267c;
+}
+
+.fa-map-marked-alt {
+    color: #f9886c;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-envelope:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-viber:hover,
+.fa-map-marked-alt:hover {
+    color: #274a1f;
+    padding-right: 8px;
+}
+
+
+/*--Footer--*/
+
+footer {
+    background-color: #00a966;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: 22px;
+}
+
+footer img {
+    height: 55px;
+    cursor: pointer;
+}
+
+.info {
+    cursor: pointer;
+}
+
+.info1 {
+    cursor: pointer;
+    color: rgb(219, 47, 70);
+}
+
+
+/*--Icon fixed--*/
+
+.fa-phone {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+/*---Media---*/
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding: .2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .timer {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5rem;
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .timer {
+        font-size: 160%
+    }
+    .social a {
+        font-size: 2rem;
+        padding: .7rem;
+    }
+}
+
+
+/*--Firefox bug fix--*/
+
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+
+/*--Selection--*/
+
+::-moz-selection {
+    color: white;
+    background: #00a966;
+}
+
+::selection {
+    color: white;
+    background: #00a966;
+}
+
+
+/*--Scroll Bar--*/
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #00a966;
+    border-radius: 8px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #00a966;
+    border-radius: 8px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1d803b;
+}
+
+
+/*--Topscroll--*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #17c215;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #1d803b;
+}
+
+
+/*--Bootstrap Padding Fix--*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (potrait phones, less than 576px)
+No media query since this is default in bootstrap
+
+Small(sm) devices (landscape phones, 576px+)
+@media (min-width: 576px) {....}
+
+Medium (md) devices (tablets, 768px+)
+@media (min-width:76t8px) {....}
+
+Large (lg) devices (desktop,992px+)
+@media (min-width: 992px) {....}
+
+Extra (xl) large devices (large decktops,1200px+)
+@media (min-width: 1200px) {....}
+*/

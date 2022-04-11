@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sephora Therapy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/timer.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/scrolltop.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo10.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#slides">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#About Us">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--End of Navigation-->
+
+    <!--Image slider-->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/x.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Welcome</h1>
+                    <h3>To Sephora Therapy Spa</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg"><span>VEIW IMAGE</span></button>
+                    <button type="button" class="btn btn-primary btn-lg"><span>Learn More</span></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/4.jpg">
+
+            </div>
+            <div class="carousel-item">
+                <img src="img/5.jpg">
+            </div>
+        </div>
+    </div>
+    <!--End of Image slider-->
+
+    <!--Jumbotron-->
+    <div class="container-fluid">
+        <div class="row-jumbotron text-center">
+            <div class="col-12">
+                <p class="lead">Sephora Therapy Spa provides the attractive discount offers to costumer during the seasonal packages offer. The packages are valid till the occasional periods only. Offers transforms during every occasion.</p>
+                <p class="lead">"Thank You"</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-primary btn-lg"><span>Discover Offers</span></button></a>
+            </div>
+        </div>
+    </div>
+    <!--End of Jumbotron-->
+
+    <!--Welcome section-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Optimize Your Health</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Welcome to our Sephora Therapy Spa! Kick your frustrated life out now. Get relaxed in our Spa and make your mind intellegent and thought creative. We provide you a deservable peaceful environment compact with 'A' grade facilities.</p>
+            </div>
+        </div>
+    </div>
+    <!--End of Welcome section-->
+
+    <!--Three column section-->
+    <section id="Gallery">
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div id="text_image">
+                        <img src="img/b.jpg" onmouseover="this.src='img/d.jpg'" onmouseout="this.src='img/b.jpg'">
+                    </div>
+                    <h5 class="lil">Massage</h5>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div id="text_image">
+                        <img src="img/c.jpg" onmouseover="this.src='img/a.jpg'" onmouseout="this.src='img/c.jpg'">
+                    </div>
+                    <h5 class="lil">Beauty Care</h5>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div id="text_image">
+                        <img src="img/f.jpg" onmouseover="this.src='img/e.jpg'" onmouseout="this.src='img/f.jpg'">
+                    </div>
+                    <h5 class="lil">Healthy Bath</h5>
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
+    </section>
+    <!--End of Three column section-->
+
+    <!--Service Status-->
+
+    <div class="container-fluid">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h2 class="display-4">Our Status</h2>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="timer" id="demo"></p>
+            </div>
+        </div>
+    </div>
+
+    <!--End Service Status-->
+
+    <!--Relax section-->
+    <section id="Services">
+        <button class="fun" data-toggle="collapse" data-target="#emoji"><span>Click for relax</span></button>
+        <div id="emoji" class="collapse">
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/gif/p.gif">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/gif/q.gif">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/gif/q.gif">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/gif/p.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Relax section-->
+
+    <!--Services Section-->
+    <div class="container-fluid padding">
+        <div class=" row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Our Services</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!--End of Services Section-->
+
+    <!--Cards-->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/10.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Full Body Massage</h4>
+                        <p class="card-text">The ultimate satisfaction at resonable price</p>
+                        <a href="#" class="btn btn-outline-secondary"><span>Veiw Detail</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/11.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Hot Stone Massage</h4>
+                        <p class="card-text">Maintain your body tone always at best level</p>
+                        <a href="#" class="btn btn-outline-secondary"><span>Veiw Detail</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/14.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Couple Massage</h4>
+                        <p class="card-text">Aren't you alone? We deal couple massage too</p>
+                        <a href="#" class="btn btn-outline-secondary"><span>Veiw Detail</span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--End of Cards-->
+
+    <!--Two column section-->
+    <section id="About Us">
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h2 class="display-6">Benifits</h2>
+                    <p>A massage reduces stress levels in most people. Massage may also help manage or reduce the symptoms of anxiety and depression.</p>
+                    <p>The full body massage may release endorphins, which act as a pain reliever.</p>
+                    <p>Associated Bodywork & Massage Professionals states that massage can increase circulation by assisting oxygen and nutrients to reach tissues and organs.</p>
+                    <p> The massage stimulates the lymphatic system, which assists the immune system protect the body.</p>
+                    <p>A full body massage helps remove dead skin cells over the entire body for improved skin tone.</p>
+                    <br>
+                    <a href="#" class="btn btn-primary"><span>Learn more</span></a>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/3.4.jpg" onmouseover="this.src='img/3.3.jpg'" onmouseout="this.src='img/3.4.jpg'">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </section>
+    <!--End of Two column section-->
+
+    <!--Philosophy-->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <video id="myVideo" width="630" height="353" controls="controls">
+  <source src="video/4k.mp4" type="video/mp4">
+</video>
+                <button class="click" onclick="enableAutoplay()" type="button"><span>Enable autoplay</span></button>
+                <button class="click" onclick="disableAutoplay()" type="button"><span>Disable autoplay</span></button>
+                <button class="click" onclick="checkAutoplay()" type="button"><span>Check autoplay status</span></button><br>
+
+                <script type="text/javascript" src="js/video.js"></script>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="display-6">Our Philosophy</h2>
+                <p>Massage therapy is the scientific manipulation of the soft tissues of the body for the purpose of normalizing those tissues and consists of a group of manual techniques that include applying fixed or movable pressure, holding, and/or causing
+                    movement to parts of the body. While massage therapy is applied primarily with the hands, sometimes the forearms or elbows are used. These techniques affect the muscular, skeletal, circulatory, lymphatic, nervous, and other systems
+                    of the body. The basic philosophy of massage therapy embraces the concept of vis Medicatrix naturae , which means "aiding the ability of the body to heal itself."</p>
+                <p>Massage therapy is one of the oldest healthcare practices known. References to massage are found in ancient Chinese medical texts written more than 4,000 years ago. Massage has been advocated in Western healthcare practices since the time
+                    of Hippocrates, the "father of medicine."</p>
+                <br>
+                <a href="#" class="btn btn-primary1"><span>Learn more</span></a>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!--End of Philosophy-->
+
+    <!--Connect-->
+    <section id="Contact">
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Connect</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-viber"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Connect-->
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a href="#"><img src="img/logo9.png"></a>
+                    <hr class="light">
+                    <p class="info1"><i class="fas fa-phone"></i><a href="tel:+977 9860636874">+977 9860636874</a></p>
+                    <p class="info1"><i class="fas fa-envelope-square"></i><a href="mailto:sephoratherapy@gmail.com">sephoratherapy@gmail.com</a></p>
+                    <P class="info"><i class="fas fa-map-marker-alt"></i> Tripureshwor, Kathmandu, Nepal</P>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 class="info">Our Hours</h5>
+                    <hr class="light">
+                    <p class="info">Opens 10am-8.30pm</p>
+                    <p class="info">Sunday 9am-8.30pm</p>
+                    <p class="info">Wednesday 11am-8.30pm</p>
+                </div>
+                <div class="col-md-4 social padding">
+                    <hr class="light">
+                    <h5 class="info">Find Our Building</h5>
+                    <hr class="light">
+                    <a href="https://www.google.com/maps/@27.693344,85.316345,18z"><i class="fas fa-map-marked-alt"></i></a>
+                </div>
+                <div class="col-12">
+                    <hr class="light">
+                    <h5 class="info">&copy; sephoratherapy.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+    <!--Scroll top-->
+    <div class="Scroll-top">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
+    <!--End of Scroll top-->
+</body>
+
+</html>
